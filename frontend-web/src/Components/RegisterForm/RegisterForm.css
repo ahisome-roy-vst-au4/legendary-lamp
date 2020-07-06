@@ -1,0 +1,11 @@
+.registerFormText {
+    width: 36% !important;
+}
+
+#LoginButs {
+    display: flex; 
+    align-items: center !important;
+    justify-content: center !important;
+    color: white;
+}
+

@@ -1,0 +1,26 @@
+.App {
+  /* text-align: center; */
+}
+
+.body {
+  padding-top: 50px;
+  background-image: cross-fade();
+}
+
+.appColor {
+  background-color: #421805;
+}
+
+.button {
+  background-color: #421805 !important;
+  color: white !important;
+}
+
+.particles {
+  position: fixed; 
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+}

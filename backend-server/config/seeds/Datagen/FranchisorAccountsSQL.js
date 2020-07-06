@@ -1,0 +1,55 @@
+const FranchisorAccountsSQL = 
+`
+INSERT INTO FranchiseOwner VALUES ('CarlotaRefreshmentaccount','Carlota Refreshment');
+INSERT INTO FranchiseOwner VALUES ('YadiraBoardaccount','Yadira Board');
+INSERT INTO FranchiseOwner VALUES ('RoySustenanceaccount','Roy Sustenance');
+INSERT INTO FranchiseOwner VALUES ('DeandreMenuaccount','Deandre Menu');
+INSERT INTO FranchiseOwner VALUES ('NitaTableaccount','Nita Table');
+INSERT INTO FranchiseOwner VALUES ('JacqulineStoresaccount','Jacquline Stores');
+INSERT INTO FranchiseOwner VALUES ('RettaCookeryaccount','Retta Cookery');
+INSERT INTO FranchiseOwner VALUES ('CristinaCookeryaccount','Cristina Cookery');
+INSERT INTO FranchiseOwner VALUES ('HalSoul-foodaccount','Hal Soul-food');
+INSERT INTO FranchiseOwner VALUES ('ThadBoardaccount','Thad Board');
+INSERT INTO FranchiseOwner VALUES ('KristanVictualsaccount','Kristan Victuals');
+INSERT INTO FranchiseOwner VALUES ('PeterFareaccount','Peter Fare');
+INSERT INTO FranchiseOwner VALUES ('HolleyGrubaccount','Holley Grub');
+INSERT INTO FranchiseOwner VALUES ('MarianSoul-foodaccount','Marian Soul-food');
+INSERT INTO FranchiseOwner VALUES ('SheronGrubaccount','Sheron Grub');
+INSERT INTO FranchiseOwner VALUES ('ClaudieVittlesaccount','Claudie Vittles');
+INSERT INTO FranchiseOwner VALUES ('MarianDietaccount','Marian Diet');
+INSERT INTO FranchiseOwner VALUES ('IveyEdiblesaccount','Ivey Edibles');
+INSERT INTO FranchiseOwner VALUES ('DenishaSubsistenceaccount','Denisha Subsistence');
+INSERT INTO FranchiseOwner VALUES ('SimonaHealth-foodaccount','Simona Health-food');
+INSERT INTO FranchiseOwner VALUES ('ElenorComestiblesaccount','Elenor Comestibles');
+INSERT INTO FranchiseOwner VALUES ('CarlotaStoresaccount','Carlota Stores');
+INSERT INTO FranchiseOwner VALUES ('PeterRationaccount','Peter Ration');
+INSERT INTO FranchiseOwner VALUES ('ZacharyAlimentaccount','Zachary Aliment');
+INSERT INTO FranchiseOwner VALUES ('HolleyComfort-foodaccount','Holley Comfort-food');
+INSERT INTO FranchiseOwner VALUES ('TheodoreBoardaccount','Theodore Board');
+INSERT INTO FranchiseOwner VALUES ('DanetteDietaccount','Danette Diet');
+INSERT INTO FranchiseOwner VALUES ('JenaeVittlesaccount','Jenae Vittles');
+INSERT INTO FranchiseOwner VALUES ('RettaCuisineaccount','Retta Cuisine');
+INSERT INTO FranchiseOwner VALUES ('AhisomeEdiblesaccount','Ahisome Edibles');
+INSERT INTO FranchiseOwner VALUES ('MyriamPabulumaccount','Myriam Pabulum');
+INSERT INTO FranchiseOwner VALUES ('CarmineCookingaccount','Carmine Cooking');
+INSERT INTO FranchiseOwner VALUES ('MelidaComestiblesaccount','Melida Comestibles');
+INSERT INTO FranchiseOwner VALUES ('PalFast-foodaccount','Pal Fast-food');
+INSERT INTO FranchiseOwner VALUES ('PalNourishmentaccount','Pal Nourishment');
+INSERT INTO FranchiseOwner VALUES ('ClaudieRationaccount','Claudie Ration');
+INSERT INTO FranchiseOwner VALUES ('JudsonProvisionsaccount','Judson Provisions');
+INSERT INTO FranchiseOwner VALUES ('SimonaDietaccount','Simona Diet');
+INSERT INTO FranchiseOwner VALUES ('QuentinSustenanceaccount','Quentin Sustenance');
+INSERT INTO FranchiseOwner VALUES ('MimiSoul-foodaccount','Mimi Soul-food');
+INSERT INTO FranchiseOwner VALUES ('JenaeComestiblesaccount','Jenae Comestibles');
+INSERT INTO FranchiseOwner VALUES ('MarianMessaccount','Marian Mess');
+INSERT INTO FranchiseOwner VALUES ('HolleyCuisineaccount','Holley Cuisine');
+INSERT INTO FranchiseOwner VALUES ('KatharynLarderaccount','Katharyn Larder');
+INSERT INTO FranchiseOwner VALUES ('CristinaRationaccount','Cristina Ration');
+INSERT INTO FranchiseOwner VALUES ('RoxieMeataccount','Roxie Meat');
+INSERT INTO FranchiseOwner VALUES ('HalStoresaccount','Hal Stores');
+INSERT INTO FranchiseOwner VALUES ('PalHealth-foodaccount','Pal Health-food');
+INSERT INTO FranchiseOwner VALUES ('MelidaFareaccount','Melida Fare');
+INSERT INTO FranchiseOwner VALUES ('RoyCookeryaccount','Roy Cookery');
+`
+function getFranchisorAccountsSQL() { return FranchisorAccountsSQL ;}
+module.exports = getFranchisorAccountsSQL;
